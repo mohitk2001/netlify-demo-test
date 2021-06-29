@@ -1,11 +1,10 @@
-
+import React from 'react';
 import './App.css';
-
+import Video from './Components/Video';
 function App() {
   return (
-    <div className="App">
-     <h1>Made changes</h1>
-     <h2>Hope It will Done </h2>
+    <div className="container-fluid">
+      <Video/>
     </div>
   );
 }
